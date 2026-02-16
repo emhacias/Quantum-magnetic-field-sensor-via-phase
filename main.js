@@ -23,14 +23,14 @@ function verificar1() {
   const aviso = document.getElementById('aviso');
 
      if (campo.value === "") {
-    aviso.innerText = " Digite um número válido / Enter a valid number.";
+    aviso.innerText = " Enter a valid number.";
      } 
       else if (isNaN(valorNumerico)) {
-    aviso.innerText = "Isso não é um número / That is not an number";
+    aviso.innerText = " That is not an number";
     campo.value = "";
       }
      else if ( valorNumerico>6.28) {
-    aviso.innerText = "Coloque algo menor que 6,28 / Enter something lower than 6,28";
+    aviso.innerText = " Enter something lower than 6,28";
     campo.value = ""; 
  }
    else {
@@ -49,14 +49,14 @@ function verificar2() {
   const aviso2 = document.getElementById('aviso2');
 
      if (campo2.value === "") {
-    aviso2.innerText = " Digite um número válido.";
+    aviso2.innerText = " Enter a valid number.";
      } 
       else if (isNaN(valorNumerico2)) {
-    aviso2.innerText = "Isso não é um número.";
+    aviso2.innerText = "That is not a number.";
     campo2.value = "";
       }
      else if ( valorNumerico2>10) {
-    aviso2.innerText = "Coloque algo menor que 10";
+    aviso2.innerText = "Enter something lower or equal than 10";
     campo2.value = ""; 
  }
    else {
@@ -94,12 +94,13 @@ estadoImaginario = [0, novaAmplitude1_imaginaria]; //rotação so afeta a segund
 
 estado = [novaAmplitude0, novaAmplitude1_real];
 var faseNormalizada = (fase * 180 / Math.PI) % 360;
-document.getElementById('estadoQuant').innerText = "Estado real / Real State: [" + estadoReal[0].toFixed(2) + ", " + estadoReal[1].toFixed(2) + "]";
-document.getElementById('fase').innerText = "Fase / Phase: " + (faseNormalizada.toFixed(2)) + "°";
-document.getElementById('zonaDeInterf').innerText = "Amplitude imaginária / Imaginary Amplitude: [" + estadoImaginario[0].toFixed(2) + ", " + estadoImaginario[1].toFixed(2) + "]";
+document.getElementById('estadoQuant').innerText = " Real State: [" + estadoReal[0].toFixed(2) + ", " + estadoReal[1].toFixed(2) + "]";
+document.getElementById('fase').innerText = "Phase: " + (faseNormalizada.toFixed(2)) + "°";
+document.getElementById('zonaDeInterf').innerText = " Imaginary Amplitude: [" + estadoImaginario[0].toFixed(2) + ", " + estadoImaginario[1].toFixed(2) + "]";
 let magnitude1 = Math.sqrt(novaAmplitude1_real**2 + novaAmplitude1_imaginaria**2);
-document.getElementById('bagulho imaginario').innerText = "Magnitude Total / Total Magnitude : " + magnitude1;
+document.getElementById('bagulho imaginario').innerText = " Total Magnitude : " + magnitude1;
 }
+
 
 
 
