@@ -98,8 +98,9 @@ document.getElementById('estadoQuant').innerText = " Real State: [" + estadoReal
 document.getElementById('fase').innerText = "Phase: " + (faseNormalizada.toFixed(2)) + "°";
 document.getElementById('zonaDeInterf').innerText = " Imaginary Amplitude: [" + estadoImaginario[0].toFixed(2) + ", " + estadoImaginario[1].toFixed(2) + "]";
 let magnitude1 = Math.sqrt(novaAmplitude1_real**2 + novaAmplitude1_imaginaria**2);
-document.getElementById('bagulho imaginario').innerText = " Total Magnitude : " + magnitude1;
+document.getElementById('bagulho imaginario').innerText = " second amplitude modulus : " + magnitude1;
 }
+
 
 
 
