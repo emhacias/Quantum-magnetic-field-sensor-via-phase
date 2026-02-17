@@ -38,7 +38,7 @@ Este projeto é uma simulação educacional e conceitual.
 Os valores exibidos não correspondem a medições físicas reais de um sensor quântico e não substituem modelos científicos ou experimentais.
 
 ## Contato
-Caso tenha alguma dúvida, entre em contato pelo e-mail associado à minha conta do github.
+Caso tenha alguma dúvida, entre em contato pelo e-mail associado à minha conta do GitHub.
 
 ## Sobre o autor
-Projeto desenvolvido por um estudante de programação , como parte de estudos em simulações físicas e JavaScript.
+Projeto desenvolvido por um estudante de programação, como parte de estudos em simulações físicas e JavaScript.
