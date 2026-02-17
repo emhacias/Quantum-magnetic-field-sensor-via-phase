@@ -1,4 +1,4 @@
-## Quantum Magnetic Field Sensor via Phase
+## Quantum Magnetic Field Simulator via Phase
 
 O projeto é um simulador educacional (não é um sensor real!) de um sensor quântico de campo magnético que usa a variação de fase para ter o resultado.
 
