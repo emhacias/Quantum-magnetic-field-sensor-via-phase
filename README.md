@@ -46,6 +46,8 @@ Portanto, o meu simulador mostra como ficaria o estado de sua fase se fosse alte
 
 Este projeto é somente uma simulação educacional e conceitual, não um sensor quântico real.
 
+Não é exatamente uma limitação mas o sensor permite a entrada de números negativos para testes teóricos.
+
 ## Contato
 
 Caso tenha alguma dúvida, entre em contato pelo e-mail associado à minha conta do GitHub.
