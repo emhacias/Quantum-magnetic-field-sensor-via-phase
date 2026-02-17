@@ -1,0 +1,49 @@
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.box {
+  font-family: Inter;
+  width: 262.5px;
+  height: 370px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 12px;
+
+  padding: 15px;
+
+  border-radius: 6%;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+  background-color: #1E1E1E;
+}
+
+#backG {
+  background-color: #121212;
+}
+
+#texto {
+  text-align: center;
+  font-family: Inter;
+}
+
+.z {
+  color: #E0E0E0;
+  font-family: Inter;
+}
+
+#intensidade,
+#tempoInteracao {
+  background-color: #5F6368;
+  color: #E0E0E0;
+}
+
+#v1,
+#v2 {
+  border-radius: 6%;
+  background-color: #5F6368;
+}
