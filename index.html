@@ -1,48 +1,62 @@
-<!DOCTYPE html >
+<!DOCTYPE html>
 <html lang="pt-br">
 <head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
 
-<title>Sensor quantico de campo magnetico via fase</title>
-<script src="main.js"></script>
+  <title>Sensor quantico de campo magnetico via fase</title>
+
+  <script src="main.js"></script>
+  <link rel="stylesheet" href="style.css">
 </head>
-<body>
-<div>Quantum magnetic field sensor via phase</div>
-<div> A magnetic field does not directly change the measured value. It changes the phase of the quantum state.</div>
-<div> Please enter the numbers with "." and not ","</div>
-<br><br><br>
 
-<div id="fase"></div> <div id="estadoQuant"></div> <div id="padraoInterf"></div><div id="valorMedido"></div>
-<div id="bagulho imaginario"></div> 
-<br>
- <br>
- <br>
-<div> Electromagnetic Field Intensity</div>
-<input type="number" id="intensidade">
-<button onclick="verificar1()">Validate</button>
+<body id="backG">
 
-<p id="aviso" style="color: red;"></p>
- 
+  <div id="texto">
+    <h1 class="z">Quantum magnetic field sensor via phase</h1>
+    <div class="z">A magnetic field does not directly change the measured value. It changes the phase of the quantum state.</div>
+    <br>
+    <div class="z">Please enter the numbers with "." and not ","</div>
+  </div>
 
-<div>
-Interaction Time</div>
-<input type="number" id="tempoInteracao">
-<button onclick="verificar2()">Validate</button>
+  <br><br><br>
 
-<p id="aviso2" style="color: red;"></p>
+  <div id="one" class="container">
 
+    <div class="box" id="inputs">
+      <div class="z">Electromagnetic Field Intensity</div>
+      <input type="number" id="intensidade">
+      <button id="v1" onclick="verificar1()" class="z">Validate</button>
+      <p id="aviso" style="color:#EA4335;"></p>
 
-<div id="numeroDeMedições"></div>
-<br><br><br>
-<div id="zonaDeInterf"></div><div id="zonaDeMed"></div>
-<br> <br>
-<div>© 2026 Luís Eduardo Martins Holanda Araújo. All Rights Reserved.
+      <div class="z">Interaction Time</div>
+      <input type="number" id="tempoInteracao">
+      <button onclick="verificar2()" class="z" id="v2">Validate</button>
+      <p id="aviso2" style="color: #EA4335;"></p>
+    </div>
 
-No part of this code may be copied, used, distributed, or modified without the express permission of the author.</div>
+    <div class="box" id="resultsss">
+      <div id="fase" class="z"></div>
+      <div id="estadoQuant" class="z"></div>
+      <div id="padraoInterf" class="z"></div>
+      <div id="valorMedido" class="z"></div>
+      <div id="bagulho imaginario" class="z"></div>
+
+      <div id="numeroDeMedições" class="z"></div>
+      <div id="zonaDeInterf" class="z"></div>
+      <div id="zonaDeMed" class="z"></div>
+    </div>
+
+  </div>
+
+  <br><br>
+
+  <div class="z">
+    © 2026 Luís Eduardo Martins Holanda Araújo. All Rights Reserved. No part of this code may be copied, used, distributed, or modified without the express permission of the author.
+  </div>
 
 </body>
 </html>
-<!--Φ-->
-
-
 
 
