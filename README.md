@@ -1,52 +1,55 @@
-# Quantum Magnetic Field Sensor via Phase
+## Quantum Magnetic Field Sensor via Phase
 
-Simulador educacional de um sensor quântico de campo magnético baseado em variação de fase, com visualização interativa em JavaScript no navegador.
+O projeto é um simulador educacional (não é um sensor real!) de um sensor quântico de campo magnético que usa a variação de fase para ter o resultado.
 
-O projeto mostra como um campo externo pode influenciar a fase de um estado quântico em superposição.
+O projeto mostra como um campo externo influencia e altera a fase de um estado quântico em superposição.
 
-Não é um sensor quântico real, mas uma visualização conceitual para aprendizado.
+Observação importante: não é um sensor quântico real, mas uma visualização conceitual para aprendizado.
 
-No código, é possível observar:
+Tem no código:
 
-•	uso de trigonometria (seno e cosseno)
-
-•	manipulação de números complexos (parte real e imaginária)
-
-•	lógica de normalização do estado
-
-•	validação de entradas do usuário
-
-•	integração entre JavaScript, HTML e CSS
+• uso de trigonometria (seno e cosseno)
+• manipulação de números complexos (parte real e imaginária)
+• lógica de normalização do estado
+• validação de entradas do usuário (se não for válido, não é aceito)
+• trabalho em conjunto do JS, HTML e CSS
 
 ## O que o projeto faz
 
-O programa recebe a intensidade do campo e o tempo de interação, calcula a fase do estado quântico, mostra as amplitudes real e imaginária, exibe a fase em graus e o módulo da segunda amplitude.
+O programa, a partir da intensidade do campo e do tempo de interação, calcula a fase do estado quântico e mostra as amplitudes real e imaginária, além de definir a fase em graus e o módulo da segunda amplitude.
 
 ## Como utilizar
 
-O projeto roda diretamente no navegador.
+O projeto funciona no navegador (Google, Firefox, etc).
 Acesse a página:
 https://emhacias.github.io/Quantum-magnetic-field-sensor-via-phase/
 
 ## O que eu aprendi com este projeto
 
-•	Modelagem conceitual de um sistema físico
-•	Trigonometria aplicada à simulação
-•	Normalização de estados
-•	Visualização interativa no navegador
-•	Validação de entrada e feedback ao usuário
-•	Integração entre JavaScript, HTML e CSS
+• modelagem conceitual de um sistema que utiliza física
+• trigonometria em simulações
+• normalização de estados físicos
+• validação de entrada e feedback para a resposta do usuário
+• integração entre JS, HTML e CSS
+
+## Conceito físico
+
+O conceito é um qubit simulado, onde há duas amplitudes (estado |0⟩ e |1⟩).
+O campo magnético entra a partir da seguinte ideia:
+“Ele não muda a superposição diretamente, mas sim alterando a fase.”
+
+O tempo de interação, por sua vez, atua junto com a intensidade do campo para definir a fase nesta simulação.
+
+Portanto, o meu simulador mostra como ficaria o estado de sua fase se fosse alterada por um campo externo, tudo isso por meio de números.
 
 ## Limitações do projeto
 
-Este projeto é uma simulação educacional e conceitual.
-Os valores exibidos não correspondem a medições físicas reais de um sensor quântico e não substituem modelos científicos ou experimentais.
+Este projeto é somente uma simulação educacional e conceitual, não um sensor quântico real.
 
 ## Contato
 
 Caso tenha alguma dúvida, entre em contato pelo e-mail associado à minha conta do GitHub.
 
-## Sobre o autor
+## Futuras atualizações
 
-Projeto desenvolvido por um estudante de programação, como parte de estudos em simulações físicas e JavaScript.
-
+No futuro, o projeto deve deixar de ser somente um simulador básico e realmente trabalhará como um sensor quântico, onde há decoerência, ruído, etc.
