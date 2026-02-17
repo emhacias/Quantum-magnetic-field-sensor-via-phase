@@ -7,10 +7,15 @@ O projeto mostra como um campo externo pode influenciar a fase de um estado quâ
 Não é um sensor quântico real, mas uma visualização conceitual para aprendizado.
 
 No código, é possível observar:
+
 •	uso de trigonometria (seno e cosseno)
+
 •	manipulação de números complexos (parte real e imaginária)
+
 •	lógica de normalização do estado
+
 •	validação de entradas do usuário
+
 •	integração entre JavaScript, HTML e CSS
 
 ## O que o projeto faz
